@@ -19,13 +19,13 @@
 
 <style lang="scss">
 .The4thSection {
-  box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 4.375rem 4.375rem 5rem;
+  background-color: #f5f9ff;
 
   &__figure {
     margin-bottom: 1.9375rem;

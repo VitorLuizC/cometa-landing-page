@@ -18,7 +18,6 @@
 $border-height: 0.875rem;
 
 .TheFooter {
-  box-sizing: border-box;
   position: relative;
   width: 100%;
   padding: 3.125rem;

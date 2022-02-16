@@ -11,6 +11,7 @@
   />
 
   <main>
+    <The3rdSection />
     <The4thSection />
   </main>
 
@@ -18,6 +19,12 @@
 </template>
 
 <style lang="scss">
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 100%;
 }
