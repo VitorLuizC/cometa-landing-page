@@ -19,7 +19,7 @@ defineProps<{
   &__name {
     display: block;
     line-height: 1.4;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     color: #383838;
@@ -29,7 +29,7 @@ defineProps<{
     display: block;
     margin: 0;
     line-height: 1.4;
-    font-family: "Zilla Slab", sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     color: #646464;

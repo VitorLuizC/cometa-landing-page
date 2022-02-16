@@ -13,7 +13,7 @@
       plataforma estiver pronta!
     </p>
 
-    <VButtonLink class="The4thSection__button"> Indicar interesse </VButtonLink>
+    <VButtonLink class="The4thSection__button">Indicar interesse</VButtonLink>
   </section>
 </template>
 

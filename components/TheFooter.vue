@@ -34,7 +34,7 @@ $border-height: 0.875rem;
     width: 100%;
     height: $border-height;
     background-color: #ff5e33;
-    content: "";
+    content: '';
   }
 
   &__content {
