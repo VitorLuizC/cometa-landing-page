@@ -30,7 +30,35 @@
 
   <Meta name="theme-color" content="#ffffff" />
 
-  <Title>Cometa</Title>
+  <!-- Open Graph / Facebook -->
+
+  <Meta property="og:type" content="website" />
+
+  <Meta property="og:url" :content="url" />
+
+  <Meta property="og:title" :content="title" />
+
+  <Meta property="og:description" :content="description" />
+
+  <Meta property="og:image" :content="preview" />
+
+  <!-- Twitter -->
+
+  <Meta property="twitter:card" content="summary_large_image" />
+
+  <Meta property="twitter:url" :content="url" />
+
+  <Meta property="twitter:title" :content="title" />
+
+  <Meta property="twitter:description" :content="description" />
+
+  <Meta property="twitter:image" :content="preview" />
+
+  <Title>{{ title }}</Title>
+
+  <Meta name="title" :content="title" />
+
+  <Meta name="description" :content="description" />
 
   <main>
     <The1stSection />
@@ -41,6 +69,15 @@
 
   <TheFooter />
 </template>
+
+<script lang="ts" setup>
+import preview from '~/assets/images/preview.png';
+
+const url = 'https://cometa-landing-page.vercel.app/';
+const title = 'Cometa - Rompa com os silos do design';
+const description =
+  'Faça parte da comunidade open-source que tornará o Design mais integrado, embasado e estratégico';
+</script>
 
 <style lang="scss">
 *,
