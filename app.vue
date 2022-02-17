@@ -11,6 +11,7 @@
   />
 
   <main>
+    <The1stSection />
     <The2ndSection />
     <The3rdSection />
     <The4thSection />
