@@ -3,7 +3,9 @@
     <aside class="The3rdSection__side"></aside>
 
     <div class="The3rdSection__container">
-      <VTitle class="The3rdSection__title">Quais os benefícios em fazer parte?</VTitle>
+      <VTitle class="The3rdSection__title">
+        Quais os benefícios em fazer parte?
+      </VTitle>
 
       <ul class="The3rdSection__topics">
         <li class="The3rdSection__topic">
@@ -36,7 +38,7 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 
   &__side {
     // It's an image, so I can't avoid using px
@@ -51,7 +53,7 @@
     width: fit-content;
     margin: 7.8125rem 5.8125rem 7.0625rem 0;
     padding: 2.9375rem;
-    border: 1px solid #0066FF;
+    border: 1px solid #0066ff;
     border-radius: 1.5625rem;
   }
 
@@ -88,7 +90,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     font-size: 1.875rem;
-    color: #0066FF;
+    color: #0066ff;
     content: '•';
   }
 }
