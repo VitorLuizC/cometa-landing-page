@@ -60,6 +60,8 @@
 
   <Meta name="description" :content="description" />
 
+  <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <main>
     <The1stSection />
     <The2ndSection />
@@ -87,6 +89,7 @@ const description =
 }
 
 html {
+  overflow-x: hidden;
   font-size: 100%;
 }
 
