@@ -9,6 +9,7 @@
     "nuxt3": "latest"
   },
   "dependencies": {
+    "@typeform/embed": "^1.32.1",
     "sass": "^1.49.7"
   }
 }
