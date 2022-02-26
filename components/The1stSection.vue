@@ -18,19 +18,17 @@
 </template>
 
 <style lang="scss">
-$logo-height: 4rem;
-
 .The1stSection {
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
-  padding-top: calc(7.0625rem + $logo-height);
+  padding-top: calc(var(--logo-height) + 7.0625rem);
   padding-bottom: 8rem;
 
   & &__logo {
     position: absolute;
-    top: -(2rem + $logo-height);
-    height: $logo-height;
+    top: calc((var(--logo-height) + 2.0rem) * -1);
+    height: var(--logo-height);
   }
 
   &__figure {
