@@ -1,5 +1,5 @@
 <template>
-  <section class="The3rdSection">
+  <VSection class="The3rdSection">
     <aside class="The3rdSection__side"></aside>
 
     <div class="The3rdSection__container">
@@ -30,7 +30,7 @@
         </li>
       </ul>
     </div>
-  </section>
+  </VSection>
 </template>
 
 <style lang="scss">

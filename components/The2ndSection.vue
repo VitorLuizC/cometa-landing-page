@@ -1,5 +1,5 @@
 <template>
-  <section class="The2ndSection">
+  <VSection class="The2ndSection">
     <div class="The2ndSection__content">
       <VTitle class="The2ndSection__title"> Conheça nossas soluções </VTitle>
 
@@ -26,7 +26,7 @@
         />
       </div>
     </div>
-  </section>
+  </VSection>
 </template>
 
 <script lang="ts" setup>

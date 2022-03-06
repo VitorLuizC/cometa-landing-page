@@ -1,5 +1,5 @@
 <template>
-  <section class="The4thSection">
+  <VSection class="The4thSection">
     <img
       class="The4thSection__figure"
       src="~/assets/images/green-semicircle.svg"
@@ -14,7 +14,7 @@
     </p>
 
     <VButtonLink class="The4thSection__button">Indicar interesse</VButtonLink>
-  </section>
+  </VSection>
 </template>
 
 <style lang="scss">
