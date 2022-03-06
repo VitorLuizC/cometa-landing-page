@@ -63,7 +63,7 @@
 
     <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <main class="App">
+    <main>
       <The1stSection />
       <The2ndSection />
       <The3rdSection />
@@ -97,19 +97,5 @@ html {
 body {
   overflow-x: hidden;
   margin: 0;
-}
-
-.App {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 1rem;
-
-  @media screen and (min-width: 640px) {
-    column-gap: 1.25rem;
-  }
-
-  @media screen and (min-width: 768px) {
-    grid-template-columns: repeat(12, 1fr);
-  }
 }
 </style>

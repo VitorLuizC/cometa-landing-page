@@ -6,10 +6,16 @@
 
 <style lang="scss">
 .VSection {
-  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+
+  @media screen and (min-width: 640px) {
+    column-gap: 1.25rem;
+  }
 
   @media screen and (min-width: 768px) {
-    grid-column: span 12;
+    grid-template-columns: repeat(12, 1fr);
   }
 }
 </style>
