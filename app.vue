@@ -89,11 +89,11 @@ const description =
 }
 
 html {
-  overflow-x: hidden;
   font-size: 100%;
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
 }
 
