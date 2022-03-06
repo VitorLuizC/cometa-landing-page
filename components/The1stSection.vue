@@ -27,7 +27,7 @@
 
   & &__logo {
     position: absolute;
-    top: calc((var(--logo-height) + 2.0rem) * -1);
+    top: calc((var(--logo-height) + 2rem) * -1);
     height: var(--logo-height);
   }
 
