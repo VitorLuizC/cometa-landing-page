@@ -1,75 +1,77 @@
 <template>
-  <Link rel="preconnect" href="https://fonts.googleapis.com" />
+  <Html lang="pt-BR">
+    <Link rel="preconnect" href="https://fonts.googleapis.com" />
 
-  <Link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin="crossorigin"
-  />
+    <Link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="crossorigin"
+    />
 
-  <Link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&family=Zilla+Slab:wght@600&display=swap"
-  />
+    <Link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&family=Zilla+Slab:wght@600&display=swap"
+    />
 
-  <Link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <Link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
-  <Link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <Link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 
-  <Link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <Link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <Link rel="manifest" href="/site.webmanifest" />
+    <Link rel="manifest" href="/site.webmanifest" />
 
-  <Link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <Link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
-  <Meta name="apple-mobile-web-app-title" content="Cometa" />
+    <Meta name="apple-mobile-web-app-title" content="Cometa" />
 
-  <Meta name="application-name" content="Cometa" />
+    <Meta name="application-name" content="Cometa" />
 
-  <Meta name="msapplication-TileColor" content="#da532c" />
+    <Meta name="msapplication-TileColor" content="#da532c" />
 
-  <Meta name="theme-color" content="#ffffff" />
+    <Meta name="theme-color" content="#ffffff" />
 
-  <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Facebook -->
 
-  <Meta property="og:type" content="website" />
+    <Meta property="og:type" content="website" />
 
-  <Meta property="og:url" :content="url" />
+    <Meta property="og:url" :content="url" />
 
-  <Meta property="og:title" :content="title" />
+    <Meta property="og:title" :content="title" />
 
-  <Meta property="og:description" :content="description" />
+    <Meta property="og:description" :content="description" />
 
-  <Meta property="og:image" :content="preview" />
+    <Meta property="og:image" :content="preview" />
 
-  <!-- Twitter -->
+    <!-- Twitter -->
 
-  <Meta property="twitter:card" content="summary_large_image" />
+    <Meta property="twitter:card" content="summary_large_image" />
 
-  <Meta property="twitter:url" :content="url" />
+    <Meta property="twitter:url" :content="url" />
 
-  <Meta property="twitter:title" :content="title" />
+    <Meta property="twitter:title" :content="title" />
 
-  <Meta property="twitter:description" :content="description" />
+    <Meta property="twitter:description" :content="description" />
 
-  <Meta property="twitter:image" :content="preview" />
+    <Meta property="twitter:image" :content="preview" />
 
-  <Title>{{ title }}</Title>
+    <Title>{{ title }}</Title>
 
-  <Meta name="title" :content="title" />
+    <Meta name="title" :content="title" />
 
-  <Meta name="description" :content="description" />
+    <Meta name="description" :content="description" />
 
-  <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <main class="App">
-    <The1stSection />
-    <The2ndSection />
-    <The3rdSection />
-    <The4thSection />
-  </main>
+    <main class="App">
+      <The1stSection />
+      <The2ndSection />
+      <The3rdSection />
+      <The4thSection />
+    </main>
 
-  <TheFooter />
+    <TheFooter />
+  </Html>
 </template>
 
 <script lang="ts" setup>
