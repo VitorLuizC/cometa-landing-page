@@ -13,11 +13,11 @@
   font-size: 2.25rem;
   color: #383838;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 640px) {
     font-size: 3rem;
   }
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 4.5rem;
   }
 }

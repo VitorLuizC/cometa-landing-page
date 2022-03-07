@@ -2,7 +2,7 @@
   <div class="VCard">
     <img class="VCard__image" :src="image" alt="" />
     <h3 class="VCard__title">{{ title }}</h3>
-    <p class="VCard__description">{{ description }}</p>
+    <VDescription class="VCard__description">{{ description }}</VDescription>
   </div>
 </template>
 
@@ -39,15 +39,6 @@ defineProps<{
     font-weight: 700;
     font-size: 1.875rem;
     color: #383838;
-  }
-
-  &__description {
-    margin: 0;
-    line-height: 1.4;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: #646464;
   }
 }
 </style>

@@ -7,10 +7,10 @@
 
       <VTitle class="The1stSection__title">Rompa com os silos do design</VTitle>
 
-      <p class="The1stSection__description">
+      <VDescription class="The1stSection__description" large>
         Faça parte da comunidade open-source que tornará o Design mais
         integrado, embasado e estratégico
-      </p>
+      </VDescription>
 
       <VButtonLink>Indicar interesse</VButtonLink>
     </article>
@@ -42,23 +42,11 @@
   }
 
   &__title {
-    margin: 0;
     margin-bottom: 1.3125rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    font-size: 4.5rem;
-    line-height: 1.2;
-    color: #383838;
   }
 
   &__description {
-    margin: 0;
     margin-bottom: 1.3125rem;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 1.4;
-    color: #646464;
   }
 }
 </style>

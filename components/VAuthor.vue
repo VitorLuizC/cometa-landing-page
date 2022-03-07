@@ -1,7 +1,9 @@
 <template>
   <dl class="VAuthor">
     <dt class="VAuthor__name">{{ name }}</dt>
-    <dd class="VAuthor__title">{{ title }}</dd>
+    <dd class="VAuthor__title">
+      <VDescription>{{ title }}</VDescription>
+    </dd>
   </dl>
 </template>
 
@@ -26,13 +28,7 @@ defineProps<{
   }
 
   &__title {
-    display: block;
     margin: 0;
-    line-height: 1.4;
-    font-family: 'Zilla Slab', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: #646464;
   }
 }
 </style>

@@ -8,10 +8,10 @@
 
     <VSubtitle class="The4thSection__title">Quer fazer parte?</VSubtitle>
 
-    <p class="The4thSection__text">
+    <VDescription class="The4thSection__text" large>
       Seja uma das primeiras pessoas a indicar interesse, e avisaremos quando a
       plataforma estiver pronta!
-    </p>
+    </VDescription>
 
     <VButtonLink class="The4thSection__button">Indicar interesse</VButtonLink>
   </VSection>
@@ -33,14 +33,11 @@
 
   &__text {
     width: 35.375rem;
-    margin: 0;
     margin-bottom: 1.6875rem;
-    line-height: 1.4;
-    text-align: center;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 600;
-    font-size: 2rem;
-    color: #646464;
+
+    @media screen and (min-width: 640px) {
+      font-size: 2rem;
+    }
   }
 }
 </style>
