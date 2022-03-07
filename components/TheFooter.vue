@@ -1,25 +1,43 @@
 <template>
   <footer class="TheFooter">
-    <div class="TheFooter__content">
-      <VSubtitle class="TheFooter__title">Idealizado por</VSubtitle>
+    <VSubtitle class="TheFooter__title">Idealizado por</VSubtitle>
 
-      <div class="TheFooter__authors">
-        <VAuthor name="Bianca Elias" title="Designer de Produto (UX/UI)" />
+    <VAuthor
+      class="TheFooter__author"
+      name="Bianca Elias"
+      title="Designer de Produto (UX/UI)"
+    />
 
-        <VAuthor name="Walter Corsi" title="Designer de Produto (Físico)" />
+    <VAuthor
+      class="TheFooter__author"
+      name="Walter Corsi"
+      title="Designer de Produto (Físico)"
+    />
 
-        <VAuthor name="Paulo Lemos" title="Designer de Móveis" />
-      </div>
-    </div>
+    <VAuthor
+      class="TheFooter__author"
+      name="Paulo Lemos"
+      title="Designer de Móveis"
+    />
+
+    <VAuthor
+      class="TheFooter__author"
+      name="Matheus Cescon"
+      title="Designer Audiovisual"
+    />
   </footer>
 </template>
 
 <style lang="scss">
+@import '../styles/responsive-property.scss';
+
 $border-height: 0.875rem;
 
 .TheFooter {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 1.25rem;
   position: relative;
-  width: 100%;
   padding: 3.125rem;
   padding-top: calc(3.125rem + $border-height);
   border-top: $border-height solid #3cd3b6;
@@ -36,20 +54,16 @@ $border-height: 0.875rem;
     content: '';
   }
 
-  &__content {
-    width: fit-content;
-    margin: 0 auto;
-  }
-
   &__title {
-    margin-bottom: 1.25rem;
+    grid-column: 1 / -1;
   }
 
-  &__authors {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5.625rem;
-    justify-content: space-between;
+  &__author {
+    @include responsive-property(grid-column, (
+      0: #{'1 / -1'},
+      768px: #{'span 2'},
+      1280px: #{'span 1'},
+    ));
   }
 }
 </style>
