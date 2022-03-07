@@ -29,6 +29,7 @@
     ),
   ));
 
+  position: relative;
   display: grid;
 }
 </style>

@@ -34,13 +34,24 @@
 </template>
 
 <style lang="scss">
+@import '../styles/responsive-property.scss';
+
 .The3rdSection {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
   background-color: #ffffff;
 
   &__side {
+    @include responsive-property(left, (
+      0: -381px,
+      768px: calc(5rem - 381px),
+      1280px: 0,
+    ));
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
     // It's an image, so I can't avoid using px
     width: 381px;
     padding-bottom: 2px;
@@ -50,15 +61,19 @@
   }
 
   &__container {
-    width: fit-content;
-    margin: 7.8125rem 5.8125rem 7.0625rem 0;
-    padding: 2.9375rem;
+    @include responsive-property(grid-column, (
+      0: #{'1 / -1'},
+      1280px: #{'5 / -1'},
+    ));
+
+    @include responsive-property(padding, (
+      0: 2.5rem,
+      640px: 2.9375rem,
+    ));
+
+    height: fit-content;
     border: 1px solid #0066ff;
     border-radius: 1.5625rem;
-  }
-
-  &__title {
-    margin-bottom: 2.9375rem;
   }
 
   &__topics {
@@ -68,19 +83,22 @@
   }
 
   &__topic {
+    @include responsive-property(font-size, (
+      0: 1.25rem,
+      640px: 1.5rem,
+      1280px: 1.875rem,
+    ));
+
+    @include responsive-property(margin, (
+      0: 2.5rem 0 0 2.5rem,
+      640px: 2.9375rem 0 0 2.5rem,
+    ));
+
     position: relative;
-    max-width: 38.75rem;
-    margin: 0;
-    margin-left: 2.5rem;
     line-height: 1.4;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    font-size: 1.875rem;
     color: #646464;
-  }
-
-  &__topic + &__topic {
-    margin-top: 2.9375rem;
   }
 
   &__topic::before {

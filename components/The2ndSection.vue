@@ -47,10 +47,6 @@ import dialog from '~/assets/images/dialog.svg';
       0: 4.75rem,
       640px: 6.375rem,
     ),
-    margin-bottom: (
-      0: 1.75rem,
-      640px: 3.25rem,
-    ),
   ));
 
   row-gap: 2.25rem;
@@ -79,17 +75,5 @@ import dialog from '~/assets/images/dialog.svg';
       1280px: #{'span 4'},
     ));
   }
-
-  /* &__card:nth-child(1) {
-    grid-column: 1 / -1;
-  }
-
-  &__card:nth-child(2) {
-    grid-column: 1 / -1;
-  }
-
-  &__card:nth-child(3) {
-    grid-column: 1 / -1;
-  } */
 }
 </style>
