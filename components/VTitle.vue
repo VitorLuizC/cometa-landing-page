@@ -5,20 +5,19 @@
 </template>
 
 <style lang="scss">
+@import '../styles/responsive-property.scss';
+
 .VTitle {
+  @include responsive-property(font-size, (
+    0: 2.3rem,
+    640px: 3rem,
+    1280px: 4.5rem,
+  ));
+
   margin: 0;
   line-height: 1.2;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
-  font-size: 2.25rem;
   color: #383838;
-
-  @media screen and (min-width: 640px) {
-    font-size: 3rem;
-  }
-
-  @media screen and (min-width: 1280px) {
-    font-size: 4.5rem;
-  }
 }
 </style>

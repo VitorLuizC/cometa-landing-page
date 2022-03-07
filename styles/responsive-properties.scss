@@ -1,0 +1,7 @@
+@import './responsive-property.scss';
+
+@mixin responsive-properties($properties) {
+  @each $property, $values in $properties {
+    @include responsive-property($property, $values);
+  }
+}
