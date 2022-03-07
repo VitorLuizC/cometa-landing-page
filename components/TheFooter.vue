@@ -1,7 +1,7 @@
 <template>
   <footer class="TheFooter">
     <div class="TheFooter__content">
-      <VTitle class="TheFooter__title">Idealizado por</VTitle>
+      <VSubtitle class="TheFooter__title">Idealizado por</VSubtitle>
 
       <div class="TheFooter__authors">
         <VAuthor name="Bianca Elias" title="Designer de Produto (UX/UI)" />

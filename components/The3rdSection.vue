@@ -3,9 +3,9 @@
     <aside class="The3rdSection__side"></aside>
 
     <div class="The3rdSection__container">
-      <VTitle class="The3rdSection__title">
+      <VSubtitle class="The3rdSection__title">
         Quais os benefícios em fazer parte?
-      </VTitle>
+      </VSubtitle>
 
       <ul class="The3rdSection__topics">
         <li class="The3rdSection__topic">

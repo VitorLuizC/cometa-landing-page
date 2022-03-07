@@ -5,7 +5,7 @@
     <article class="The1stSection__content">
       <VLogo class="The1stSection__logo" />
 
-      <h1 class="The1stSection__title">Rompa com os silos do design</h1>
+      <VTitle class="The1stSection__title">Rompa com os silos do design</VTitle>
 
       <p class="The1stSection__description">
         Faça parte da comunidade open-source que tornará o Design mais

@@ -6,7 +6,7 @@
       alt=""
     />
 
-    <VTitle class="The4thSection__title">Quer fazer parte?</VTitle>
+    <VSubtitle class="The4thSection__title">Quer fazer parte?</VSubtitle>
 
     <p class="The4thSection__text">
       Seja uma das primeiras pessoas a indicar interesse, e avisaremos quando a

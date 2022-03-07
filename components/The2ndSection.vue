@@ -1,7 +1,9 @@
 <template>
   <VSection class="The2ndSection">
     <div class="The2ndSection__content">
-      <VTitle class="The2ndSection__title"> Conheça nossas soluções </VTitle>
+      <VSubtitle class="The2ndSection__title">
+        Conheça nossas soluções
+      </VSubtitle>
 
       <div class="The2ndSection__cards">
         <VCard
