@@ -35,6 +35,8 @@ const handleClick = () => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: fit-content;
+  height: fit-content;
   padding: 0.59375rem 2.375rem;
   border-radius: 0.625rem;
   background-color: #0066ff;
