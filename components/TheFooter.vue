@@ -10,14 +10,14 @@
 
     <VAuthor
       class="TheFooter__author"
-      name="Walter Corsi"
-      title="Designer de Produto (Físico)"
+      name="Paulo Lemos"
+      title="Designer de Móveis"
     />
 
     <VAuthor
       class="TheFooter__author"
-      name="Paulo Lemos"
-      title="Designer de Móveis"
+      name="Walter Corsi"
+      title="Designer de Produto (Físico)"
     />
 
     <VAuthor
